@@ -1,0 +1,105 @@
+:root{
+    --textcolor:#fff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: var(--textcolor);
+    font-family: sans-serif;
+}
+body{
+    background-color:orange;
+    width: 100%;
+}
+#header-content{
+    margin-bottom: 4%;
+    background-color: blue;
+}
+.navcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--textcolor);
+    margin-top: 3rem;
+}
+.game{
+    position: absolute;
+    left: 12rem;
+}
+.game h1{
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    font-weight: bolder;
+    position: absolute;
+    right: 8rem;
+}
+.container li a:hover{
+    padding-top: 3px;
+    text-decoration-line: underline;
+    text-decoration-color: var(--textcolor);
+}
+.container #active{
+    text-decoration: underline;
+}
+.container #download a{
+    text-decoration: none;
+    padding: 12px 10px;
+    border: 1px solid var(--textcolor);
+    border-radius: 30%;
+}
+.container #download a:hover{
+   background-color: var(--textcolor);
+   color: #000;
+}
+.section-content{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+#detailsofgame{
+   position:relative;
+    left:12rem ;
+}
+#detailsofgame h6{
+    margin-bottom:3rem;
+    font-weight: bold;
+}
+#detailsofgame h4{
+    margin-bottom:0.8rem;
+}
+#detailsofgame h1{
+    margin-bottom:2rem;
+    font-size:5rem;
+    font-style:oblique;
+}
+.para-content{
+    margin-bottom: 2rem;
+}
+#detailsofgame a{
+    padding:0.2rem 1rem;
+    border: solid 1px var(--textcolor);
+    background-color: var(--textcolor);
+    color: #000;
+    border-radius: 20% ;
+    transition: all 0.5s ease;
+}
+#detailsofgame a:hover{
+    transition:transform;
+    transform: scaleY(1);
+    background-color: orange;
+    color: var(--textcolor);
+}
+
+
+
+
+
